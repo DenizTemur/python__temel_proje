@@ -1,0 +1,4 @@
+def ters(veri):
+     if type(veri)==list:
+        return [ters(i) for i in veri[::-1]]
+    return veri
